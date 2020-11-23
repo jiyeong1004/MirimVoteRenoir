@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         for(int i = 0; i < imgVIds.length; i++){
-            final  int index;
+            final int index;
             index = i;
             imgVs[index] = findViewById(imgVIds[index]);
             imgVs[index].setOnClickListener(new View.OnClickListener() {

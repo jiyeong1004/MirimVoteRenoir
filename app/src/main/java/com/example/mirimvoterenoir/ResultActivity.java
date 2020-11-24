@@ -47,7 +47,7 @@ public class ResultActivity extends AppCompatActivity {
         ImageView imgvMax = findViewById(R.id.imgv_max);
 
         textMaxTitle.setText(imgNames[maxIndex]);
-        imgvMax.setImageResource(imageFileId[maxIndex]) ;
+        imgvMax.setImageResource(imageFileId[maxIndex]);
 
         Button btnBack = findViewById(R.id.btn_back);
         btnBack.setOnClickListener(new View.OnClickListener() {

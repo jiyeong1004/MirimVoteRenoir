@@ -26,12 +26,25 @@ public class ResultActivity extends AppCompatActivity {
         int[] ratingIds = {R.id.rating_bar1, R.id.rating_bar2, R.id.rating_bar3, R.id.rating_bar4, R.id.rating_bar5, R.id.rating_bar6, R.id.rating_bar7, R.id.rating_bar8, R.id.rating_bar9};
         Integer imageFileId[] = {R.drawable.o1, R.drawable.o2, R.drawable.o3, R.drawable.o4, R.drawable.o5, R.drawable.o6, R.drawable.o7, R.drawable.o8, R.drawable.o9};
 
+        int max = 0;
+        int maxIndex = 0;
+
+        for(int i = 0; i<imgNames.length; i++){
+            if(voteCount[i]>max){
+                max = voteCount[i];
+                maxIndex = i;
+            }
+        }
+
+
+
         for(int i = 0; i < imgNames.length; i++){
             textVs[i] = findViewById(textIds[i]);
             ratingBars[i] = findViewById(ratingIds[i]);
 
             textVs[i].setText(imgNames[i]);
             ratingBars[i].setRating((float)voteCount[i]);
+
         }
 
         Button btnBack = findViewById(R.id.btn_back);

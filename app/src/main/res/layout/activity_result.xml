@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -67,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -109,7 +109,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -130,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -151,7 +151,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -172,7 +172,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 
@@ -193,7 +193,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            style="?android:attr/ratingBarStyleIndicator"/>
+            style="?android:attr/ratingBarStyleSmall"/>
 
     </TableRow>
 

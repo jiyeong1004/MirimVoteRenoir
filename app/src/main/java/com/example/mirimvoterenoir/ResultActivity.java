@@ -30,8 +30,8 @@ public class ResultActivity extends AppCompatActivity {
         int max = 0;
         int maxIndex = 0;
 
-        for(int i = 0; i<imgNames.length; i++){
-            if(voteCount[i]>max){
+        for(int i = 0; i < imgNames.length; i++){
+            if(voteCount[i] > max){
                 max = voteCount[i];
                 maxIndex = i;
             }

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -36,7 +37,11 @@ public class ResultActivity extends AppCompatActivity {
             }
         }
 
+        TextView textMaxTitle = findViewById(R.id.text_max_title);
+        ImageView imgvMax = findViewById(R.id.imgv_max);
 
+        textMaxTitle.setText(imgNames[maxIndex]);
+        imgvMax.setImageResource(imgFileNames[maxIndex]);
 
         for(int i = 0; i < imgNames.length; i++){
             textVs[i] = findViewById(textIds[i]);
@@ -44,7 +49,6 @@ public class ResultActivity extends AppCompatActivity {
 
             textVs[i].setText(imgNames[i]);
             ratingBars[i].setRating((float)voteCount[i]);
-
         }
 
         Button btnBack = findViewById(R.id.btn_back);

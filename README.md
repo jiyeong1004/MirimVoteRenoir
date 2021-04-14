@@ -6,6 +6,6 @@
 
 ![투표화면](https://github.com/jiyeong1004/MirimVoteRenoir/blob/master/vote.png)
 
-## 결과화면
+## 결과 화면
 
 ![결과화면](https://github.com/jiyeong1004/MirimVoteRenoir/blob/master/result.png)

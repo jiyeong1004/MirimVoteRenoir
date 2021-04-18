@@ -8,4 +8,4 @@
 
 ## 결과 화면
 
-![결과화면](https://github.com/jiyeong1004/MirimVoteRenoir/blob/master/result.png)
+![결과화면](https://user-images.githubusercontent.com/51290739/115134014-a964a680-a047-11eb-8cac-232be5fe7792.png)
